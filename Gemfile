@@ -3,11 +3,17 @@ source 'https://rubygems.org'
 gem 'rake'
 gem 'hanami',       '~> 1.2'
 gem 'hanami-model', '~> 1.2'
+
+# dry
+gem 'dry-system'
+
+# auth
+gem 'kan'
 gem 'omniauth', '~> 1.8.1'
 gem 'omniauth-github', '~> 1.3.0'
-gem 'web_bouncer'
 
 gem 'sqlite3'
+gem 'iodine'
 
 group :development do
   # Code reloading
