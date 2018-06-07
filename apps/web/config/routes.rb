@@ -1,6 +1,1 @@
-# Configure your routes here
-# See: http://hanamirb.org/guides/routing/overview/
-#
-# Example:
-# get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
-get '/boards/:id', to: 'boards#show'
+resources :boards, only: %i[show]
