@@ -1,0 +1,3 @@
+project=retro
+test=minitest
+template=erb
