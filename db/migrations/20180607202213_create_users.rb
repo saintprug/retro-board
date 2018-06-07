@@ -1,7 +1,7 @@
 Hanami::Model.migration do
   change do
     create_table :users do
-      binary :uuid, primary_key: true
+      column :uuid, String, primary_key: true, size: 64
       column :name, String, null: false
       column :avatar, String, null: false
 
