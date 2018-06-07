@@ -5,6 +5,7 @@ gem 'hanami',       '~> 1.2'
 gem 'hanami-model', '~> 1.2'
 
 # dry
+gem 'dry-monads', '~> 1.0.0.rc1'
 gem 'dry-system'
 gem 'dry-system-hanami', github: 'davydovanton/dry-system-hanami'
 
