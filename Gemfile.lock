@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/davydovanton/dry-system-hanami.git
+  revision: b83bef971c4d535cbaae4c7ebc48d6a454d6a3bd
+  specs:
+    dry-system-hanami (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -200,6 +206,7 @@ DEPENDENCIES
   capybara
   dotenv (~> 2.0)
   dry-system
+  dry-system-hanami!
   hanami (~> 1.2)
   hanami-model (~> 1.2)
   hanami-webconsole

@@ -6,6 +6,7 @@ gem 'hanami-model', '~> 1.2'
 
 # dry
 gem 'dry-system'
+gem 'dry-system-hanami', github: 'davydovanton/dry-system-hanami'
 
 # auth
 gem 'kan'
